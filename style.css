@@ -1,0 +1,105 @@
+:root{/*Define as configuraçoes do site*/
+    --corfundo: white (261 84% 2%); /*variavel contem uma cor banca*/
+
+    --larguramaxima: 1000px; /*largura máxima do site*/
+    --larguraminima: 250px; /*largura minima do site*/
+}
+
+*{ /*Seletor universal*/
+    margin: 0; /*O margin define as margens externas do elemento, nesse caso retira todas as margens de pãgina*/
+    padding: 0; /*O padding define as margens internas do elemento*/
+}
+body{
+    background-color: var(--corfundo); /*Define a cor de fundo do elemento*/
+}
+
+header, main, footer{
+    background-color: white;/*Cor de fundo*/
+   max-width: var(--larguramaxima); /*largura maxima*/
+   min-width: var(--larguraminima); /*largura minima*/
+   margin: auto; /*Centralizar*/
+   padding: 10px; /*margen interna*/
+
+}
+header{
+    position: relative;
+}
+#sociais{   
+   
+    width: 140px; /*largura*/
+    display: flex; /*comportamento interno flexivel*/  
+    justify-content: space-between;/*distribuiçao horizontal*/
+    position: absolute; /*posiciona em relaçao ao elemento pai no caso a tag HEADER*/
+    right: 15px ; /*distancia a direita*/
+    top: 20px; /*distancia do topo*/
+    
+}    
+
+
+.sociais{
+    width: 35px; /*largura*/
+    height: 35px; /*altura*/
+    filter: (1); opacity: (.6);
+     
+   
+}
+.sociais:hover{
+    filter: invert(1);
+}
+
+
+#capa{
+    height: 300px; /*altura da div*/
+    background-image: url('images/bg-urbano.jpg'); /*definir foto da capa*/
+    background-repeat: no-repeat; /*nao repetir a foto de fundo*/
+    background-position: 0px 0px; /*posiciona a imagem x e y (horizontal e vertical)*/
+    background-size: cover; /*ajusta o tamanho da imagem dentro da div*/
+    display: flex; /*deixa o conportamento da div flexivel*/
+    flex-direction: column; /*muda a direçao dos itens de um abaixo do outro*/
+    justify-content: center; /*alinha  verticalmente*/
+    align-items: center; /*alinha horizontalmente*/
+}
+#Fotoperfil{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    left: 15px;
+    top: 155px;
+    border-radius: 10px;
+}
+#capa h1{
+    color: white;
+}
+#capa p{
+    color: rgb(223, 216, 216);
+}
+
+/*============botoes do menu=========*/
+nav{
+   
+    position: relative;
+    display: flex; /*torna os elementos internos flexiveis/ajustados ao elemento pai*/
+    justify-content: center; /*centraliza horizontalmente os elemnetos filhos*/
+}
+#menu{
+    
+    width: 250px;
+    position: absolute;
+    display: flex;
+    justify-content: space-between; /*distribui os elementos internos horizontalmente*/
+    
+
+
+}
+
+.menu{
+    
+    padding: 5px 15px 5px 15px; /*espeçamento internos dos botões*/
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+}
+ 
+.menu:hover{
+    background-color: rgb(65, 158, 127);
+}
