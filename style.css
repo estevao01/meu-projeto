@@ -14,7 +14,7 @@ body{
 }
 
 header, main, footer{
-    background-color: white;/*Cor de fundo*/
+    background-color: rgb(228, 165, 165);/*Cor de fundo*/
    max-width: var(--larguramaxima); /*largura maxima*/
    min-width: var(--larguraminima); /*largura minima*/
    margin: auto; /*Centralizar*/
@@ -79,7 +79,7 @@ nav{
    
     position: relative;
     display: flex; /*torna os elementos internos flexiveis/ajustados ao elemento pai*/
-    justify-content: center; /*centraliza horizontalmente os elemnetos filhos*/
+    justify-content: baseline; /*centraliza horizontalmente os elemnetos filhos*/
 }
 #menu{
     
@@ -87,6 +87,7 @@ nav{
     position: absolute;
     display: flex;
     justify-content: space-between; /*distribui os elementos internos horizontalmente*/
+    
     
 
 
@@ -98,6 +99,9 @@ nav{
     border-radius: 5px;
     text-decoration: none;
     color: black;
+    display: flex;
+    
+ 
 }
  
 .menu:hover{
