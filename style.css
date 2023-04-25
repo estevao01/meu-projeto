@@ -14,7 +14,7 @@ body{
 }
 
 header, main, footer{
-    background-color: rgb(228, 165, 165);/*Cor de fundo*/
+    background-color: rgb(228, 144, 144);/*Cor de fundo*/
    max-width: var(--larguramaxima); /*largura maxima*/
    min-width: var(--larguraminima); /*largura minima*/
    margin: auto; /*Centralizar*/
@@ -50,9 +50,9 @@ header{
 
 #capa{
     height: 300px; /*altura da div*/
-    background-image: url('images/bg-urbano.jpg'); /*definir foto da capa*/
+    background-image: url(images/capa2.jpg); /*definir foto da capa*/
     background-repeat: no-repeat; /*nao repetir a foto de fundo*/
-    background-position: 0px 0px; /*posiciona a imagem x e y (horizontal e vertical)*/
+    background-position: 0px 0px;/*posiciona a imagem x e y (horizontal e vertical)*/
     background-size: cover; /*ajusta o tamanho da imagem dentro da div*/
     display: flex; /*deixa o conportamento da div flexivel*/
     flex-direction: column; /*muda a direçao dos itens de um abaixo do outro*/
@@ -77,9 +77,10 @@ header{
 /*============botoes do menu=========*/
 nav{
    
-    position: relative;
+   
     display: flex; /*torna os elementos internos flexiveis/ajustados ao elemento pai*/
-    justify-content: baseline; /*centraliza horizontalmente os elemnetos filhos*/
+    justify-content: center; /*centraliza horizontalmente os elemnetos filhos*/
+
 }
 #menu{
     
@@ -99,11 +100,12 @@ nav{
     border-radius: 5px;
     text-decoration: none;
     color: black;
-    display: flex;
+    
+  
     
  
 }
  
 .menu:hover{
-    background-color: rgb(65, 158, 127);
+    background-color: rgb(153, 15, 15);
 }
