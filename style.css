@@ -84,7 +84,7 @@ nav{
 }
 #menu{
     
-    width: 250px;
+    width: 150px;
     position: absolute;
     display: flex;
     justify-content: space-between; /*distribui os elementos internos horizontalmente*/
@@ -114,4 +114,8 @@ nav{
     text-align: left;
     column-count: 1;
     column-gap: 10px;
+}
+.coluna2{
+    column-count: 1;
+
 }
