@@ -68,7 +68,7 @@ header{
     border-radius: 100px;
 }
 #capa h1{
-    color: white;
+    color: rgb(0, 0, 0);
 }
 #capa p{
     color: rgb(223, 216, 216);
@@ -108,4 +108,10 @@ nav{
  
 .menu:hover{
     background-color: rgb(91, 89, 223);
+}
+
+.coluna1{
+    text-align: left;
+    column-count: 1;
+    column-gap: 10px;
 }
