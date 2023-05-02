@@ -14,7 +14,7 @@ body{
 }
 
 header, main, footer{
-    background-color: rgb(170, 165, 236);/*Cor de fundo*/
+    background-color: rgb(200, 197, 255);/*Cor de fundo*/
    max-width: var(--larguramaxima); /*largura maxima*/
    min-width: var(--larguraminima); /*largura minima*/
    margin: auto; /*Centralizar*/
@@ -107,7 +107,7 @@ nav{
 }
  
 .menu:hover{
-    background-color: rgb(91, 89, 223);
+    background-color: rgb(72, 70, 158);
 }
 
 .coluna1{
