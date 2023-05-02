@@ -14,7 +14,7 @@ body{
 }
 
 header, main, footer{
-    background-color: rgb(200, 197, 255);/*Cor de fundo*/
+    background-color: rgb(230, 229, 240);/*Cor de fundo*/
    max-width: var(--larguramaxima); /*largura maxima*/
    min-width: var(--larguraminima); /*largura minima*/
    margin: auto; /*Centralizar*/
@@ -117,5 +117,18 @@ nav{
 }
 .coluna2{
     column-count: 1;
+
+}
+.foto{
+    width: 35%;
+    position: absolute;
+    right: 30px;
+    top: 330px;
+    
+}
+.lucasp1{
+    display: flex;
+    margin-top: 10px;
+
 
 }
